@@ -1,11 +1,14 @@
-import './App.css';
+import React, { Component } from 'react';
+import Navbar from './Components/Layout/Navbar';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>hello</h1>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Navbar></Navbar>
+      </div>
+    );
+  }
 }
 
 export default App;
